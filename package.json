@@ -1,0 +1,18 @@
+{
+  "name": "atividade5",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "JulCzar",
+  "license": "MIT",
+  "scripts": {
+    "priority": "npx ts-node ./priority.ts",
+    "roundRobin": "npx ts-node ./roundRobin.ts"
+  },
+  "dependencies": {
+    "date-fns": "^2.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "typescript": "^4.2.3"
+  }
+}
