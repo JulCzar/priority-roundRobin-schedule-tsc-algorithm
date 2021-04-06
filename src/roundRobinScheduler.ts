@@ -6,10 +6,10 @@ const QUANTUM = 1000;
 
 const roundRobinScheduler = (function () {
   const state = { isRunning: false }
-
   const setRunning = (newState: boolean) => {
     state.isRunning = newState
   }
+
   const threadQueue: Thread[] = []
 
   function addThread(thread: Thread) {
